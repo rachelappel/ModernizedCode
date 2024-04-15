@@ -90,7 +90,7 @@
 
             // list patterns in C# 11 enable you to match an array or list against a sequence of patterns
             // good old fashioned delete and replace code
-            public void listPatterns()
+            public void ListPatterns()
             {
                 int[] numbers = { 1, 2, 3 };
 

@@ -6,15 +6,15 @@
         Console.WriteLine($"Length of '{s}': {s.Length}");
     }*/
 
-    public void attemptNullPrintWithGuard()
+    public void AttemptNullPrintWithGuard()
     {
-        string s = GetValue();
+        string? s = GetValue();
         Console.WriteLine(s != null
             ? $"Length of '{s}': {s.Length}"
             : "String is null.");
     }
 
-    private string GetValue()
+    private string? GetValue()
     {
         return null;
     }

@@ -7,9 +7,9 @@ file class FileScoped
     public string? Name { get; set; }
 }
 
-class useit
+class Useit
 {
-    void usething()
+    void Usething()
     {
         FileScoped fs = new FileScoped();
     }

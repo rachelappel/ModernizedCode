@@ -19,7 +19,7 @@
                                     $"{ person.FirstName}, Glad to have you here !";
         }
 
-        void stringInterpolationInSwitch(int safetyScore)
+        void StringInterpolationInSwitch(int safetyScore)
         {
             string message = $"The usage policy for {safetyScore} is {
                 safetyScore switch

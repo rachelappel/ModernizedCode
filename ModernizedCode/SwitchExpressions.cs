@@ -79,7 +79,7 @@ public string CheckStatus(StatusIndicator statusIndicator)
                 $"Not expected direction value: {direction}"),
         };
 
-        public static void checkDirection()
+        public static void CheckDirection()
         {
             var direction = Direction.Right;
             Console.WriteLine($"Map view direction is {direction}");

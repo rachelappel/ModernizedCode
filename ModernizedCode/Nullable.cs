@@ -20,7 +20,7 @@ namespace ModernizedCode
     {
         public string? Name { get; set; }
 
-        void register(string name)
+        void Register(string name)
         {
             var x = name.Length;
         }
